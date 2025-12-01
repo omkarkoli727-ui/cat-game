@@ -1,0 +1,25 @@
+import pygame
+from sys import exit
+
+pygame.init()
+screen = pygame.display.set_mode((800,400))
+pygame.display.set_caption("runner")
+clock = pygame.time.Clock()
+font=pygame.font.Font(None,50)
+
+sky_surf=pygame.image.load("D:\aseprite\projects\skyy.aseprite")
+ground_surf=pygame.image.load("D:\aseprite\projects\ground.aseprite")
+text_surf=font.render("My Game",False,"Green")
+
+while True:
+    for event in pygame.event.get():
+        if event.type==pygame.QUIT:
+            pygame.quit()
+            exit()
+    screen.blit(sky_surf,(0,0))
+    screen.blit(ground_surf,(0,300))
+    screen.blit(text_surf,(300,50))
+            
+    pygame.display.update()
+    clock.tick(60)
+
