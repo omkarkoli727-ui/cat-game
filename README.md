@@ -1,31 +1,31 @@
-# 🐱 Pixel Cat Game
+# Pixel Cat Game
 
 A fun 2D side-scrolling game built using Python and Pygame where you control a pixel cat and avoid obstacles to survive as long as possible!
 
 ---
 
-## 🎮 Gameplay
+## Gameplay
 
-* Control a pixel cat 🐱
-* Jump over obstacles 📦
+* Control a pixel cat 
+* Jump over obstacles 
 * Avoid collisions to survive
-* Game ends on collision 💥
+* Game ends on collision 
 * Restart and try again!
 
 ---
 
-## 🚀 Features
+## Features
 
-* 🐾 Smooth player movement with gravity
-* ☁️ Animated moving clouds
-* 📦 Obstacle spawning system
-* 💥 Collision detection with hitboxes
-* 🧠 Simple game state (Start / Game Over)
-* 🎨 Custom pixel art and font
+* Smooth player movement with gravity
+* Animated moving clouds
+* Obstacle spawning system
+* Collision detection with hitboxes
+* Simple game state (Start / Game Over)
+* Custom pixel art and font
 
 ---
 
-## 🎯 Controls
+## Controls
 
 | Key         | Action     |
 | ----------- | ---------- |
@@ -52,7 +52,7 @@ A fun 2D side-scrolling game built using Python and Pygame where you control a p
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Install pygame:
 
@@ -68,7 +68,7 @@ python main.py
 
 ---
 
-## 🧠 Game Logic
+## Game Logic
 
 * Player uses **gravity-based jumping**
 * Obstacles move from right → left
@@ -77,7 +77,7 @@ python main.py
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 *
 
@@ -87,24 +87,24 @@ https://github.com/user-attachments/assets/84417c2e-61dd-4784-83be-cf53a54b89c7
 
 ---
 
-## ⚡ Future Improvements
+## Future Improvements
 
-* 🔊 Add sound effects & background music
-* 🏆 Add score tracking system
-* 🚀 Increase difficulty over time
-* 🎨 Add animations for player
-* 📱 Mobile version
-
----
-
-## 🛠️ Tech Stack
-
-* Python 🐍
-* Pygame 🎮
+* Add sound effects & background music
+* Add score tracking system
+* Increase difficulty over time
+* Add animations for player
+* Mobile version
 
 ---
 
-## 👨‍💻 Author
+## Tech Stack
+
+* Python 
+* Pygame 
+
+---
+
+## Author
 
 **Omkar Koli**
 
